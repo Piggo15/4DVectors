@@ -1,1 +1,3 @@
 # Vector4
+
+This is a class of a 4D Vector made in C#. It is inspired by Unity's Vector3 class, and is able to be used in Unity. This is currently a work in progress. There is also a math class that I created to handle some complex functions. I made this to ensure that the Vector4 class is completly independent of Unity and so that I can learn more about Vectors and the algorithms that are used to calculate complex functions. I plan on adding all of the functionality that I can from Unity's Vector3 to my Vector4 class, of course in 4D and not in 3D. Use this code in your own project, learn from it, for the repository, make pull requests, I don't care as long as you follow the MIT liscense and you learn, have fun, or create something cool. Have a wonderful day!
