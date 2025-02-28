@@ -64,11 +64,18 @@ public class Vector4
 
     // Static methods
 
-    public static float Angle(Vector4 firstVector, Vector4 secondVector)
+    public static float AngleDeg(Vector4 firstVector, Vector4 secondVector)
     {
         // Angle in degrees
         var cos = Dot(firstVector, secondVector) / (firstVector.Magnitude * secondVector.Magnitude);
         return Math.ArccosineDeg(cos);
+    }
+
+    public static float AngleRad(Vector4 firstVector, Vector4 secondVector)
+    {
+        // Angle in degrees
+        var cos = Dot(firstVector, secondVector) / (firstVector.Magnitude * secondVector.Magnitude);
+        return Math.ArccosineRad(cos);
     }
 
     public static Vector4 ClampMagnitude(Vector4 vector, float maxMagnitude)
